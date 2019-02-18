@@ -1,0 +1,18 @@
+- git:
+    local-name: panther
+    uri: https://github.com/rbonghi/panther.git
+- git:
+    local-name: panther_hardware
+    uri: https://github.com/rbonghi/panther_hardware.git
+- git:
+    local-name: roboteq_control
+    uri: https://github.com/rbonghi/roboteq_control.git
+- git:
+    local-name: rplidar_ros
+    uri: https://github.com/robopeak/rplidar_ros.git
+- git:
+    local-name: ros_robot_wandering_demo
+    uri: https://github.com/officinerobotiche/ros_robot_wandering_demo.git
+- git:
+    local-name: zed-ros-wrapper
+    uri: https://github.com/stereolabs/zed-ros-wrapper.git
