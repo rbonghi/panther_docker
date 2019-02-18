@@ -25,7 +25,7 @@ COPY panther.rosinstall .
 #    && /bin/bash -c '. /opt/ros/$ROS_DISTRO/setup.bash; cd ~/catkin_ws/; catkin_make'
 
 RUN wstool init ~/catkin_ws/src panther.rosinstall \
-    && apt-get update
+    && apt-get update \
     && rosdep install -y --from-paths ~/catkin_ws/src/panther_hardware --ignore-src --rosdistro $ROS_DISTRO \
     && rosdep install -y --from-paths ~/catkin_ws/src/roboteq_control --ignore-src --rosdistro $ROS_DISTRO \
     && /bin/bash -c '. /opt/ros/$ROS_DISTRO/setup.bash; cd ~/catkin_ws/; catkin_make'
