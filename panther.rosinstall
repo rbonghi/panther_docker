@@ -13,6 +13,3 @@
 - git:
     local-name: ros_robot_wandering_demo
     uri: https://github.com/officinerobotiche/ros_robot_wandering_demo.git
-- git:
-    local-name: zed-ros-wrapper
-    uri: https://github.com/stereolabs/zed-ros-wrapper.git
